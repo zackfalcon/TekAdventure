@@ -1,0 +1,8 @@
+event:
+       event-nb: 1
+             name: "Eythan Fellousi"
+             coords: 5,5
+             texture: "ressources/quest/character/eythan_lavare.png"
+             pnj: 1
+             dialog: "ressources/dialog/eythan.txt"
+             quest-pic: "ressources/quest/quest_pic/quest_eythan_debut.png"  

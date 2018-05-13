@@ -1,0 +1,303 @@
+#DAFOS - CONFIGFILE
+#TO KNOW EVERYTHING ABOUT THE YAML CONFIG OF DAFOS
+#GO TO THIS WEBSITE : 51.51.51.51/dafos-api/
+CONF-LEVEL-1:
+    map-content:
+        00000011111111100
+	00000011111111100
+        00000011111111100
+	00000001111111000
+	00000001111111000
+	00000001111111000
+	00000001111111000
+	00001111111111111
+	00000111111111111
+	00000111111111111
+	00000111111111111
+	00001111111111111
+	00000011111111111
+	00000001111111111
+	00000001111111110
+	00000001111111100
+     map:
+	map-name: "LEVEL-1"
+	map-debug: 0
+	map-bg: "ressources/backgrounds/mapstart2.png"
+	map-music: "ressources/music/dofas_debut.ogg"
+	map-player: 8,15
+	map-decor: "ressources/decor/decor_map01.png"
+	map-music: "ressources/music/dofas_debut.ogg"
+	map-tile: "ressources/misc/tile_tp.png"
+	teleporter:
+	   teleporter-nb: 1
+	   tp-1:
+	   coords: 7,5
+	   tp-name: "tp1-LEVEL-2"
+	   tp-load: 0
+	event:
+	   event-nb: 3
+       items-1:
+		name: "Avalon"
+	   	texture: "ressources/quest/character/avalon.png"
+	   	coords: 4,9
+	   	pnj: 1
+	   	dialog: "ressources/dialog/avalon.txt"
+	   	quest-pic: "ressources/quest/quest_pic/quest_debut.png"
+	items-2:
+                 name: "Guard 1"
+                 texture: "ressources/quest/character/oto_mustam.png"
+                 coords: 4,10
+                 pnj: 0
+                 dialog: "ressources/dialog/oso_mustam.txt"
+                 quest-pic: "ressources/quest/quest_pic/oto_mustam.png"
+	items-3:
+                 name: "Guard 2"
+                 texture: "ressources/quest/character/oto_mustam.png"
+                 coords: 4,8
+                 pnj: 0
+                 dialog: "ressources/dialog/oto_mustam.txt"
+                 quest-pic: "ressources/quest/quest_pic/oto_mustam.png"
+CONF-LEVEL-2:
+      map-content:
+      00111000000011                                                                  
+      11111100000011                                                                  
+      01111100000111                                                                  
+      00111111001111                                                                  
+      00011211111111                                                                  
+      00111111111111                                                                  
+      00011111111111                                                                  
+      00011111111111                                                                  
+      00011111111111                                                                  
+      00011111111111                                                                  
+      11111111111111                                                                  
+      11111111111111                                                                  
+      11111111111111
+      map:
+        map-name: "LEVEL-2"
+        map-debug: 0
+        map-bg: "ressources/backgrounds/map_02.png"
+        map-music: "ressources/music/dofas_spawn.ogg"
+        map-player: 7,12
+	map-decor: "ressources/decor/decor_map02.png"
+	map-music: "ressources/music/dofas_debut.ogg"
+	map-tile: "ressources/misc/tile_map02.png"
+      teleporter:
+        teleporter-nb: 1
+        tp-1:
+        coords:  5,5
+        tp-name: "tp1-LEVEL-3"
+	tp-load: 0
+CONF-LEVEL-3:
+    map-content:
+    11111111111111                                                                  
+    11111111111111                                                                  
+    11111111111111                                                                  
+    11111111111111                                                                  
+    11111111111111                                                                  
+    10111111100000                                                                  
+    00001111100000                                                                  
+    00000111100000                                                                  
+    00000111100000                                                                  
+    00000111110000                                                                  
+    00000111000000                                                                  
+    00000111000000                                                                  
+    01111111000000
+    00111111000000
+     map:
+       map-name: "LEVEL-3"
+       map-debug: 0
+       map-bg: "ressources/backgrounds/map_03.png"
+       map-player: 7,12
+       map-music: "ressources/music/dofas_end.ogg"
+       map-tile: "ressources/misc/tile_tp.png"
+       map-decor: "ressources/decor/decor_map03.png"
+     teleporter:
+       teleporter-nb: 1
+       tp-1:
+       coords:  1,12
+       tp-name: "tp1-LEVEL-4"
+       tp-load: 0
+CONF-LEVEL-4:
+      map-content:
+      11111111110111                                                                  
+      00000000011111                                                                  
+      00000000011111                                                                  
+      00000001111111                                                                  
+      00000001111111                                                                  
+      00000001111111                                                                  
+      00000111111111                                                                  
+      00000111111111                                                                  
+      00000111111111                                                                  
+      00000111111111                                                                  
+      00000111111111                                                                  
+      00000111111111                                                                  
+      00000111111111                                                                  
+      00000011111111
+      map:
+        map-name: "LEVEL-4"
+        map-debug: 0
+        map-bg: "ressources/backgrounds/map_04.png"
+        map-player: 5,9
+        map-music: "ressources/music/dofas_end.ogg"
+        map-tile: "ressources/misc/tile_tp.png"
+        map-decor: "ressources/misc/blank.png"
+      teleporter:
+      teleporter-nb: 1
+      tp-1:
+      coords: 9,13
+      tp-name: "tp1-LEVEL-5"
+      tp-load: 0
+       event:
+        event-nb: 1
+	items-1:
+         name: "Eythan Fellousi"
+	 texture: "ressources/quest/character/eythan_lavare.png"
+         coords: 5,5
+         pnj: 1
+         dialog: "ressources/dialog/eythan.txt"
+         quest-pic: "ressources/quest/quest_pic/quest_eythan_debut.png"
+CONF-LEVEL-5:
+      map-content:
+      11111111111111                                                                  
+      11111100000000                                                                  
+      11111100000000                                                                  
+      11111100000110                                                                  
+      11111000000110                                                                  
+      11111000000111                                                                  
+      11111111110011                                                                  
+      11111111111111                                                                  
+      11111111111111
+       map:
+         map-name: "LEVEL-5"
+         map-debug: 0
+         map-bg: "ressources/backgrounds/map_05.png"
+         map-player: 0,8
+         map-music: "ressources/music/dofas_end.ogg"
+         map-tile: "ressources/misc/tile_tp.png"
+         map-decor: "ressources/decor/decor_map05.png"
+       teleporter:
+       teleporter-nb: 1
+       tp-1:
+       coords: 11,3
+       tp-name: "tp1-LEVEL-6"
+       tp-load: 0
+        event:
+         event-nb: 0
+CONF-LEVEL-6:
+       map-content:
+       11111111111111                                                                  
+       00000000000000                                                                  
+       00000000000000                                                                  
+       00000010000000                                                                  
+       00000011100000                                                                  
+       00000000110000                                                                  
+       00000000011100                                                                  
+       00000000011110                                                                  
+       00000000011111                                                                  
+       00000000011111                                                                  
+       00000000011111                                                                  
+       00000001111111                                                                  
+       00001111111111                                                                  
+       00001111111111
+        map:
+          map-name: "LEVEL-6"
+          map-debug: 0
+          map-bg: "ressources/backgrounds/map_06.png"
+          map-player: 13,10
+          map-music: "ressources/music/dofas_donjon.ogg"
+          map-tile: "ressources/misc/tile_tp.png"
+          map-decor: "ressources/decor/decor_map06.png"
+        teleporter:
+        teleporter-nb: 1
+          tp-1:
+          coords: 8,13
+          tp-name: "tp1-LEVEL-7"
+          tp-load: 0
+	event:
+        event-nb: 2
+          items-1:
+          name: "Al Coolique"
+          texture: "ressources/quest/character/mec_random.png"
+          coords: 5,11
+          pnj: 0
+          dialog: "ressources/dialog/al_colique.txt"
+          quest-pic: "ressources/quest/quest_pic/al_coolique_quest.png"
+	  items-2:
+	  name: "Momo"
+           texture: "ressources/quest/character/moomoon.png"
+           coords: 5,5
+           pnj: 1
+           dialog: "ressources/dialog/momoon.txt"
+           quest-pic: "ressources/quest/quest_pic/momo_character.png"
+ CONF-LEVEL-7:
+        map-content:
+	01111111111111                                                                  
+	00000000000000                                                                  
+	00111111111110                                                                  
+	00011121111110                                                                  
+	00011111111110                                                                  
+	00011111111110                                                                  
+	00011111111110                                                                  
+	00011111111110                                                                  
+	00011111111110                                                                  
+	00011111111110                                                                  
+	00001111111110                                                                  
+	00000011111110                                                                  
+	00000000111110                                                                  
+	00000000011110
+         map:
+           map-name: "LEVEL-7"
+           map-debug: 0
+           map-bg: "ressources/backgrounds/map_07.png"
+           map-player: 6,2
+           map-music: "ressources/music/dofas_donjon.ogg"
+           map-tile: "ressources/misc/tile_tp.png"
+           map-decor: "ressources/decor/decor_map07.png"
+         teleporter:
+         teleporter-nb: 1
+         tp-1:
+         coords: 12,13
+         tp-name: "tp1-LEVEL-8"
+         tp-load: 0
+	 event:
+         event-nb: 1
+           items-1:
+           name: "Kerbel"
+           texture: "ressources/quest/character/kerbel.png"
+           coords: 8,5
+           pnj: 1
+           dialog: "ressources/dialog/kerbel.txt"
+           quest-pic: "ressources/quest/quest_pic/youssef_character.png"
+CONF-LEVEL-8:
+        map-content:
+	11111111111111                                                                  
+	00000000000000                                                                  
+	00000000000000                                                                  
+	00000000000000                                                                  
+	00000000000100                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111                                                                  
+	00000000001111
+         map:
+           map-name: "LEVEL-8"
+           map-debug: 0
+           map-bg: "ressources/backgrounds/map_08.png"
+           map-player: 13,7
+           map-music: "ressources/music/dofas_spawn.ogg"
+           map-tile: "ressources/misc/tile_tp.png"
+           map-decor: "ressources/decor/decor_map08.png"
+	  event:
+          event-nb: 1
+            items-1:
+            name: "Ava fin"
+            texture: "ressources/quest/character/Avalon_quest_end.png"
+            coords: 0,4
+            pnj: 1
+            dialog: "ressources/dialog/avalon2.txt"
+            quest-pic: "ressources/quest/quest_pic/quest_avalon_end.png"
