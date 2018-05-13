@@ -1,9 +1,8 @@
 ---
 
-
----
-
 <h1 id="tekadventure---epitech-project">TEKADVENTURE - EPITECH PROJECT</h1>
+<h4 id="tekadventure---epitech-project">Made with - Matthieu Brault & Antoine Casse</h4>
+
 <p>This is the last project of my first year at my computer science school named Epitech, the goal of this project was to create a Points and Click game.</p>
 <p>The project was in C langage using CSFML Graphic library</p>
 <h1 id="dofas">DOFAS</h1>
