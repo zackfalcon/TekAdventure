@@ -26,9 +26,6 @@
 <h2 id="config-the-game">CONFIG THE GAME</h2>
 <p>All of the game is generate by a file configuration</p>
 <p>EXAMPLE :</p>
-<blockquote>
-<p>Blockquote</p>
-</blockquote>
 <pre><code>#DAFOS - CONFIGFILE
 #TO KNOW EVERYTHING ABOUT THE YAML CONFIG OF DAFOS
 #GO TO THIS WEBSITE : 51.51.51.51/dafos-api/
